@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Registration of Dancers</title>
+  </head>
+
+  <div class="big-background"></div>
+
+  <body>
+    <header>
+      <section>
+        <h1 id="title">Registration of Dancers</h1>
+        <p id="description" class="title-text">Welcome to our School!</p>
+      </section>
+    </header>
+
+    <main>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+      <form id="survey-form">
+        <section id="survey-fields">
+          <div class="form-group">
+            <label for="name" id="name-label">* Name:</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="Email" id="email-label">* Email:</label>
+            <input type="text" id="Email" class="form-control" placeholder="Enter your email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="number" id="number-label">* Age </label>
+            <input type="number" id="number" class="form-control" placeholder="age" min="1" max="100" required />
+          </div>
+
+          <div class="form-group">
+            <p>What is your situation with the dance?</p>
+            <select id="dropdown" form="survey-form" class="form-control">
+              <option value="" disabled selected>Select current situation</option>
+              <option value="iniciante-nivel0">Nunca tive contato com a dança</option>
+              <option value="iniciante-nivel1">Já tive contato com a dança</option>
+              <option value="intermediario">Já danço a algum tempo</option>
+              <option value="avançado">Já danço a muito tempo</option>
+              <option value="Other">Nenhum das opções acima</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <p>Which modality are you applying for? <span class="identification">(Check All that apply)</span></p>
+            <fieldset id="modalidade">
+              <label for="ballet">
+                <input type="checkbox" name="modalidade-check" id="ballet" value="ballet" />
+                Classic Ballet
+              </label>
+              <label for="contemporary">
+                <input type="checkbox" name="modalidade-check" id="contemporary" value="contemporay" />
+                Contemporary
+              </label>
+              <label for="jazz">
+                <input type="checkbox" name="modalidade-check" id="jazz" value="jazz" />
+                Jazz Dance
+              </label>
+              <label for="street-dance">
+                <input type="checkbox" name="modalidade-check" id="street-dance" value="street-dance" />
+                Street Dance
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="form-group">
+            <label for="schedule">Select the class schedule:</label>
+            <fieldset id="schedule">
+              <label for="morning">
+                <input type="radio" name="r-schedule" id="morning" value="morning" required />
+                Morning
+              </label>
+              <label for="aftenoon">
+                <input type="radio" name="r-schedule" id="afternoon" value="aftenoon" required />
+                Afternoon
+              </label>
+              <label for="night">
+                <input type="radio" name="r-schedule" id="night" value="night" required />
+                Night
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="form-group">
+            <label for="comments">Anything we should now?</label>
+            <textarea id="comments" cols="30" rows="10"></textarea>
+          </div>
+        </section>
+        <button id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

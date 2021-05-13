@@ -1,0 +1,139 @@
+body {
+  background-image: linear-gradient(rgba(53, 130, 153, 0.5));
+  font-family: 'KoHo', sans-serif;
+}
+
+.big-background {
+  background-image: url(https://wallpapercave.com/wp/wp2865269.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  max-height: 100px;
+}
+
+h1 {
+  font-weight: 700px;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+}
+
+#description {
+  font-weight: 100px;
+  font-style: italic;
+}
+
+main {
+  background-color: whitesmoke;
+  max-height: 800px;
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  top: 20px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+#dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+#modalidade {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+}
+
+.identification {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#schedule {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+}
+
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#survey-form {
+  background: var(--color-darkblue-alpha);
+  padding-top: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.form-control {
+  display: block;
+  width: 90%;
+  height: 1.5rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+select {
+  min-height: 2.2rem;
+  min-width: 97%;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
