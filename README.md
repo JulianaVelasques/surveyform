@@ -27,7 +27,7 @@
     
 ## :computer: Live Preview
 
-You can access this website demo version at the following link [Demo Version](https://movit-julianavelasques.vercel.app/)
+You can access this website demo version at the following link [Demo Version](https://julianavelasques.github.io/surveyform/)
 
 ## :page_with_curl: About
 
