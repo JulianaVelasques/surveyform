@@ -5,11 +5,11 @@
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/JulianaVelasques/surveyform">
   
-  <a href="https://github.com/JulianaVelasques/moveit/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JulianaVelasques/moveit">
+  <a href="https://github.com/JulianaVelasques/surveyform/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JulianaVelasques/surveyform">
   </a>
 
-  <a href="https://github.com/Silve1ra/be-the-hero/issues">
+  <a href="https://github.com/JulianaVelasques/surveyform/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/JulianaVelasques/surveyform">
   </a>
 
