@@ -33,7 +33,7 @@ You can access this website demo version at the following link [Demo Version](ht
 
 This project is part of Responsive Web Design Certification mentored by [FreeCodeCamp](https://www.freecodecamp.org/learn) where we have to create a survey form.
 
-This is an application where you can use a survey-for where dancers can register at the dance school without having to go directly to the school secretary.
+This is an application of survey form where dancers can register at the dance school without having to go directly to the school secretary.
 
 ## :wrench: Built With
 
